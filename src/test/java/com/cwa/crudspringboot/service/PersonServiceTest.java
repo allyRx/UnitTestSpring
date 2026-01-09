@@ -49,11 +49,11 @@ class PersonServiceTest {
         when(personRepository.findById(1L)).thenReturn(Optional.of(p1));
 
         //Act
-        Optional<Person> person = Optional.ofNullable(personService.findById(p1.getId()));
+        Person person = personService.findById(1L);
 
 
         //Assert
-        assertThat(person.get().getName()).isEqualTo("Jhon Wick");
+        assertThat(person).isEqualTo(p1);
     }
 
     @Test
