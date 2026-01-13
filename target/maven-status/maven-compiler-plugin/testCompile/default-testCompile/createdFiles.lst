@@ -1,0 +1,4 @@
+com/cwa/crudspringboot/repository/PersonRepositoryTest.class
+com/cwa/crudspringboot/controller/PersonControllerTest.class
+com/cwa/crudspringboot/CrudSpringbootApplicationTests.class
+com/cwa/crudspringboot/service/PersonServiceTest.class

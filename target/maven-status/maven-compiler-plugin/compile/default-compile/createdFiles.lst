@@ -1,0 +1,5 @@
+com/cwa/crudspringboot/controller/PersonController.class
+com/cwa/crudspringboot/repository/PersonRepository.class
+com/cwa/crudspringboot/CrudSpringbootApplication.class
+com/cwa/crudspringboot/entity/Person.class
+com/cwa/crudspringboot/service/PersonService.class
