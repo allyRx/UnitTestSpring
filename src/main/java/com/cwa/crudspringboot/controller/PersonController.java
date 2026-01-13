@@ -19,7 +19,6 @@ public class PersonController {
 
     private final PersonService personService;
 
-
     @Operation(
             summary = "Recuperer tous les personnes ",
             description = "Retournes tous les personnes dans la base des donnes"
